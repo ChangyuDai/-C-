@@ -1,0 +1,35 @@
+{
+    "cmake.sourceDirectory": "D:/cpp/vscode",
+    //改成你的clangd路径
+    "clangd.path": "D:\\cpp\\new_mingw32\\bin\\clangd.exe",
+    "clangd.arguments": [
+        "--all-scopes-completion",
+        "--background-index",
+        "--compile-commands-dir=${workspaceFolder}/build/release/",  //根据实际路径按需修改
+        "--completion-parse=auto",
+        "--completion-style=detailed",
+        "--enable-config",
+        "--clang-tidy",
+        "--function-arg-placeholders=true",
+        "--header-insertion-decorators",
+        "--header-insertion=iwyu",
+        "--log=verbose",
+        "--pch-storage=disk",
+        "--pretty",
+        "--ranking-model=decision_forest",
+        "--query-driver=D:\\cpp\\new_mingw32\\bin\\g++.exe",  //改成你的g++路径
+        "--j=6",
+    ],
+    "clangd.fallbackFlags": [
+        "-std=c++23",
+        "-I${workspaceFolder}/include/",
+        "--target=x86_64-w64-windows-gnu"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "never"
+    },
+
+    "clangd.onConfigChanged": "restart",
+    "clangd.serverCompletionRanking": true,
+    "clangd.detectExtensionConflicts": true,
+}

@@ -1,0 +1,208 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "HelloOO",
+					"jsonFile" : "directory-HelloOO-Debug-d08b50182e04d5616735.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "HelloOO",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "HelloOOMember",
+					"jsonFile" : "directory-HelloOOMember-Debug-7f43ddc140c321d5cb21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "HelloOOMember",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				},
+				{
+					"build" : "HelloOODerive",
+					"jsonFile" : "directory-HelloOODerive-Debug-f8be7841eeaeaa2f064a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "HelloOODerive",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "HelloSTLVector",
+					"jsonFile" : "directory-HelloSTLVector-Debug-ce1cd869aac3c065c3af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "HelloSTLVector",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "VSCODE"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "HelloOO",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "HelloOOMember",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "HelloOODerive",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "HelloSTLVector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "HelloOO::@5fbef787e8b17466ade5",
+					"jsonFile" : "target-HelloOO-Debug-360dfe0b78015e431c03.json",
+					"name" : "HelloOO",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "HelloOODerive::@b0b4f57ae395e3e0c940",
+					"jsonFile" : "target-HelloOODerive-Debug-693998ada9871eba2ecf.json",
+					"name" : "HelloOODerive",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "HelloOOMember::@33ce410c64bc4e1e1e38",
+					"jsonFile" : "target-HelloOOMember-Debug-c599f972be5395a17ee6.json",
+					"name" : "HelloOOMember",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "HelloSTLVector::@2eec09e59ade53c83f8d",
+					"jsonFile" : "target-HelloSTLVector-Debug-1bc5289934202cfff2c9.json",
+					"name" : "HelloSTLVector",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/cpp/vscode/build",
+		"source" : "D:/cpp/vscode"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

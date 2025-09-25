@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/cpp/vscode/build/HelloOO",
+  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloOO.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloOO\\main.cpp",
+  "file": "D:/cpp/vscode/HelloOO/main.cpp",
+  "output": "HelloOO/CMakeFiles/HelloOO.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/cpp/vscode/build/HelloOOMember",
+  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloOOMember.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloOOMember\\main.cpp",
+  "file": "D:/cpp/vscode/HelloOOMember/main.cpp",
+  "output": "HelloOOMember/CMakeFiles/HelloOOMember.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/cpp/vscode/build/HelloOODerive",
+  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloOODerive.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloOODerive\\main.cpp",
+  "file": "D:/cpp/vscode/HelloOODerive/main.cpp",
+  "output": "HelloOODerive/CMakeFiles/HelloOODerive.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/cpp/vscode/build/HelloSTLVector",
+  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloSTLVector.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloSTLVector\\main.cpp",
+  "file": "D:/cpp/vscode/HelloSTLVector/main.cpp",
+  "output": "HelloSTLVector/CMakeFiles/HelloSTLVector.dir/main.cpp.obj"
+}
+]
