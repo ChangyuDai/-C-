@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/cpp/vscode/HelloOO/CMakeLists.txt"
   "D:/cpp/vscode/HelloOODerive/CMakeLists.txt"
   "D:/cpp/vscode/HelloOOMember/CMakeLists.txt"
+  "D:/cpp/vscode/HelloSTLList/CMakeLists.txt"
   "D:/cpp/vscode/HelloSTLVector/CMakeLists.txt"
   "CMakeFiles/3.30.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.0/CMakeCXXCompiler.cmake"
@@ -57,6 +58,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HelloOODerive/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HelloSTLVector/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "HelloSTLList/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -65,4 +67,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "HelloOOMember/CMakeFiles/HelloOOMember.dir/DependInfo.cmake"
   "HelloOODerive/CMakeFiles/HelloOODerive.dir/DependInfo.cmake"
   "HelloSTLVector/CMakeFiles/HelloSTLVector.dir/DependInfo.cmake"
+  "HelloSTLList/CMakeFiles/HelloSTLList.dir/DependInfo.cmake"
   )

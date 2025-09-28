@@ -67,6 +67,7 @@ all: HelloOOMember/all
 all: test/all
 all: HelloOODerive/all
 all: HelloSTLVector/all
+all: HelloSTLList/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +76,7 @@ preinstall: HelloOOMember/preinstall
 preinstall: test/preinstall
 preinstall: HelloOODerive/preinstall
 preinstall: HelloSTLVector/preinstall
+preinstall: HelloSTLList/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -83,6 +85,7 @@ clean: HelloOOMember/clean
 clean: test/clean
 clean: HelloOODerive/clean
 clean: HelloSTLVector/clean
+clean: HelloSTLList/clean
 .PHONY : clean
 
 #=============================================================================
@@ -129,6 +132,21 @@ HelloOOMember/preinstall:
 # Recursive "clean" directory target.
 HelloOOMember/clean: HelloOOMember/CMakeFiles/HelloOOMember.dir/clean
 .PHONY : HelloOOMember/clean
+
+#=============================================================================
+# Directory level rules for directory HelloSTLList
+
+# Recursive "all" directory target.
+HelloSTLList/all: HelloSTLList/CMakeFiles/HelloSTLList.dir/all
+.PHONY : HelloSTLList/all
+
+# Recursive "preinstall" directory target.
+HelloSTLList/preinstall:
+.PHONY : HelloSTLList/preinstall
+
+# Recursive "clean" directory target.
+HelloSTLList/clean: HelloSTLList/CMakeFiles/HelloSTLList.dir/clean
+.PHONY : HelloSTLList/clean
 
 #=============================================================================
 # Directory level rules for directory HelloSTLVector
@@ -245,7 +263,7 @@ HelloOODerive/CMakeFiles/HelloOODerive.dir/clean:
 HelloSTLVector/CMakeFiles/HelloSTLVector.dir/all:
 	$(MAKE) $(MAKESILENT) -f HelloSTLVector\CMakeFiles\HelloSTLVector.dir\build.make HelloSTLVector/CMakeFiles/HelloSTLVector.dir/depend
 	$(MAKE) $(MAKESILENT) -f HelloSTLVector\CMakeFiles\HelloSTLVector.dir\build.make HelloSTLVector/CMakeFiles/HelloSTLVector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cpp\vscode\build\CMakeFiles --progress-num=7,8 "Built target HelloSTLVector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cpp\vscode\build\CMakeFiles --progress-num=9,10 "Built target HelloSTLVector"
 .PHONY : HelloSTLVector/CMakeFiles/HelloSTLVector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -263,6 +281,32 @@ HelloSTLVector: HelloSTLVector/CMakeFiles/HelloSTLVector.dir/rule
 HelloSTLVector/CMakeFiles/HelloSTLVector.dir/clean:
 	$(MAKE) $(MAKESILENT) -f HelloSTLVector\CMakeFiles\HelloSTLVector.dir\build.make HelloSTLVector/CMakeFiles/HelloSTLVector.dir/clean
 .PHONY : HelloSTLVector/CMakeFiles/HelloSTLVector.dir/clean
+
+#=============================================================================
+# Target rules for target HelloSTLList/CMakeFiles/HelloSTLList.dir
+
+# All Build rule for target.
+HelloSTLList/CMakeFiles/HelloSTLList.dir/all:
+	$(MAKE) $(MAKESILENT) -f HelloSTLList\CMakeFiles\HelloSTLList.dir\build.make HelloSTLList/CMakeFiles/HelloSTLList.dir/depend
+	$(MAKE) $(MAKESILENT) -f HelloSTLList\CMakeFiles\HelloSTLList.dir\build.make HelloSTLList/CMakeFiles/HelloSTLList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\cpp\vscode\build\CMakeFiles --progress-num=7,8 "Built target HelloSTLList"
+.PHONY : HelloSTLList/CMakeFiles/HelloSTLList.dir/all
+
+# Build rule for subdir invocation for target.
+HelloSTLList/CMakeFiles/HelloSTLList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cpp\vscode\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloSTLList/CMakeFiles/HelloSTLList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cpp\vscode\build\CMakeFiles 0
+.PHONY : HelloSTLList/CMakeFiles/HelloSTLList.dir/rule
+
+# Convenience name for target.
+HelloSTLList: HelloSTLList/CMakeFiles/HelloSTLList.dir/rule
+.PHONY : HelloSTLList
+
+# clean rule for target.
+HelloSTLList/CMakeFiles/HelloSTLList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f HelloSTLList\CMakeFiles\HelloSTLList.dir\build.make HelloSTLList/CMakeFiles/HelloSTLList.dir/clean
+.PHONY : HelloSTLList/CMakeFiles/HelloSTLList.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

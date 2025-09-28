@@ -12,7 +12,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -90,6 +91,21 @@
 					"source" : "HelloSTLVector",
 					"targetIndexes" : 
 					[
+						4
+					]
+				},
+				{
+					"build" : "HelloSTLList",
+					"jsonFile" : "directory-HelloSTLList-Debug-834cd1e9202a6fe96247.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "HelloSTLList",
+					"targetIndexes" : 
+					[
 						3
 					]
 				}
@@ -103,7 +119,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"directoryIndexes" : 
 					[
@@ -157,6 +174,18 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "HelloSTLList",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
 						3
 					]
 				}
@@ -183,6 +212,13 @@
 					"jsonFile" : "target-HelloOOMember-Debug-c599f972be5395a17ee6.json",
 					"name" : "HelloOOMember",
 					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "HelloSTLList::@dcbbacdd796ec9d0f3fc",
+					"jsonFile" : "target-HelloSTLList-Debug-3a9862783695dce3d15d.json",
+					"name" : "HelloSTLList",
+					"projectIndex" : 5
 				},
 				{
 					"directoryIndex" : 5,

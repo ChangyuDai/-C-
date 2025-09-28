@@ -14,3 +14,6 @@ D:/cpp/vscode/build/HelloOODerive/CMakeFiles/rebuild_cache.dir
 D:/cpp/vscode/build/HelloSTLVector/CMakeFiles/HelloSTLVector.dir
 D:/cpp/vscode/build/HelloSTLVector/CMakeFiles/edit_cache.dir
 D:/cpp/vscode/build/HelloSTLVector/CMakeFiles/rebuild_cache.dir
+D:/cpp/vscode/build/HelloSTLList/CMakeFiles/HelloSTLList.dir
+D:/cpp/vscode/build/HelloSTLList/CMakeFiles/edit_cache.dir
+D:/cpp/vscode/build/HelloSTLList/CMakeFiles/rebuild_cache.dir

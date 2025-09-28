@@ -179,6 +179,9 @@
 		},
 		{
 			"path" : "HelloSTLVector/CMakeLists.txt"
+		},
+		{
+			"path" : "HelloSTLList/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

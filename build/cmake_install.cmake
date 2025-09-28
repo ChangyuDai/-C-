@@ -44,6 +44,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/cpp/vscode/build/test/cmake_install.cmake")
   include("D:/cpp/vscode/build/HelloOODerive/cmake_install.cmake")
   include("D:/cpp/vscode/build/HelloSTLVector/cmake_install.cmake")
+  include("D:/cpp/vscode/build/HelloSTLList/cmake_install.cmake")
 
 endif()
 

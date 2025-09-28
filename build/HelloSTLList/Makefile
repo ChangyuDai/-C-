@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cpp\vscode\build\CMakeFiles D:\cpp\vscode\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d D:\cpp\vscode\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\cpp\vscode\build\CMakeFiles D:\cpp\vscode\build\HelloSTLList\\CMakeFiles\progress.marks
+	cd /d D:\cpp\vscode\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloSTLList/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\cpp\vscode\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d D:\cpp\vscode\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloSTLList/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,83 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\cpp\vscode\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloSTLList/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\cpp\vscode\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloSTLList/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\cpp\vscode\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named HelloOO
+# Convenience name for target.
+HelloSTLList/CMakeFiles/HelloSTLList.dir/rule:
+	cd /d D:\cpp\vscode\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloSTLList/CMakeFiles/HelloSTLList.dir/rule
+.PHONY : HelloSTLList/CMakeFiles/HelloSTLList.dir/rule
 
-# Build rule for target.
-HelloOO: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloOO
-.PHONY : HelloOO
-
-# fast build rule for target.
-HelloOO/fast:
-	$(MAKE) $(MAKESILENT) -f HelloOO\CMakeFiles\HelloOO.dir\build.make HelloOO/CMakeFiles/HelloOO.dir/build
-.PHONY : HelloOO/fast
-
-#=============================================================================
-# Target rules for targets named HelloOOMember
-
-# Build rule for target.
-HelloOOMember: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloOOMember
-.PHONY : HelloOOMember
-
-# fast build rule for target.
-HelloOOMember/fast:
-	$(MAKE) $(MAKESILENT) -f HelloOOMember\CMakeFiles\HelloOOMember.dir\build.make HelloOOMember/CMakeFiles/HelloOOMember.dir/build
-.PHONY : HelloOOMember/fast
-
-#=============================================================================
-# Target rules for targets named HelloOODerive
-
-# Build rule for target.
-HelloOODerive: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloOODerive
-.PHONY : HelloOODerive
-
-# fast build rule for target.
-HelloOODerive/fast:
-	$(MAKE) $(MAKESILENT) -f HelloOODerive\CMakeFiles\HelloOODerive.dir\build.make HelloOODerive/CMakeFiles/HelloOODerive.dir/build
-.PHONY : HelloOODerive/fast
-
-#=============================================================================
-# Target rules for targets named HelloSTLVector
-
-# Build rule for target.
-HelloSTLVector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloSTLVector
-.PHONY : HelloSTLVector
-
-# fast build rule for target.
-HelloSTLVector/fast:
-	$(MAKE) $(MAKESILENT) -f HelloSTLVector\CMakeFiles\HelloSTLVector.dir\build.make HelloSTLVector/CMakeFiles/HelloSTLVector.dir/build
-.PHONY : HelloSTLVector/fast
-
-#=============================================================================
-# Target rules for targets named HelloSTLList
-
-# Build rule for target.
-HelloSTLList: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloSTLList
+# Convenience name for target.
+HelloSTLList: HelloSTLList/CMakeFiles/HelloSTLList.dir/rule
 .PHONY : HelloSTLList
 
 # fast build rule for target.
 HelloSTLList/fast:
-	$(MAKE) $(MAKESILENT) -f HelloSTLList\CMakeFiles\HelloSTLList.dir\build.make HelloSTLList/CMakeFiles/HelloSTLList.dir/build
+	cd /d D:\cpp\vscode\build && $(MAKE) $(MAKESILENT) -f HelloSTLList\CMakeFiles\HelloSTLList.dir\build.make HelloSTLList/CMakeFiles/HelloSTLList.dir/build
 .PHONY : HelloSTLList/fast
+
+main.obj: main.cpp.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	cd /d D:\cpp\vscode\build && $(MAKE) $(MAKESILENT) -f HelloSTLList\CMakeFiles\HelloSTLList.dir\build.make HelloSTLList/CMakeFiles/HelloSTLList.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /d D:\cpp\vscode\build && $(MAKE) $(MAKESILENT) -f HelloSTLList\CMakeFiles\HelloSTLList.dir\build.make HelloSTLList/CMakeFiles/HelloSTLList.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /d D:\cpp\vscode\build && $(MAKE) $(MAKESILENT) -f HelloSTLList\CMakeFiles\HelloSTLList.dir\build.make HelloSTLList/CMakeFiles/HelloSTLList.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -188,11 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... HelloOO
-	@echo ... HelloOODerive
-	@echo ... HelloOOMember
 	@echo ... HelloSTLList
-	@echo ... HelloSTLVector
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
@@ -204,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\cpp\vscode\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -271,6 +271,15 @@ HelloOO_IS_TOP_LEVEL:STATIC=OFF
 HelloOO_SOURCE_DIR:STATIC=D:/cpp/vscode/HelloOO
 
 //Value Computed by CMake
+HelloSTLList_BINARY_DIR:STATIC=D:/cpp/vscode/build/HelloSTLList
+
+//Value Computed by CMake
+HelloSTLList_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+HelloSTLList_SOURCE_DIR:STATIC=D:/cpp/vscode/HelloSTLList
+
+//Value Computed by CMake
 HelloSTLVector_BINARY_DIR:STATIC=D:/cpp/vscode/build/HelloSTLVector
 
 //Value Computed by CMake
@@ -397,7 +406,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -22,5 +22,11 @@
   "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloSTLVector.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloSTLVector\\main.cpp",
   "file": "D:/cpp/vscode/HelloSTLVector/main.cpp",
   "output": "HelloSTLVector/CMakeFiles/HelloSTLVector.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/cpp/vscode/build/HelloSTLList",
+  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloSTLList.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloSTLList\\main.cpp",
+  "file": "D:/cpp/vscode/HelloSTLList/main.cpp",
+  "output": "HelloSTLList/CMakeFiles/HelloSTLList.dir/main.cpp.obj"
 }
 ]
