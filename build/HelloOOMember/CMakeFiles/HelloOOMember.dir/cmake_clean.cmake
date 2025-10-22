@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HelloOOMember.dir/main.cpp.obj"
-  "CMakeFiles/HelloOOMember.dir/main.cpp.obj.d"
-  "HelloOOMember.exe"
-  "HelloOOMember.exe.manifest"
+  "CMakeFiles/HelloOOMember.dir/main.cpp.o"
+  "CMakeFiles/HelloOOMember.dir/main.cpp.o.d"
+  "HelloOOMember"
   "HelloOOMember.pdb"
-  "libHelloOOMember.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,3 +1,1 @@
-D:\cpp\new_mingw32\bin\cmake.exe -E rm -f CMakeFiles\HelloSTLVector.dir/objects.a
-D:\cpp\new_mingw32\bin\llvm-ar.exe qc CMakeFiles\HelloSTLVector.dir/objects.a @CMakeFiles\HelloSTLVector.dir\objects1.rsp
-D:\cpp\new_mingw32\bin\clang++.exe -g -Wl,--whole-archive CMakeFiles\HelloSTLVector.dir/objects.a -Wl,--no-whole-archive -o HelloSTLVector.exe -Wl,--out-implib,libHelloSTLVector.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HelloSTLVector.dir\linkLibs.rsp
+/usr/bin/clang++ -O2 -g -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/HelloSTLVector.dir/main.cpp.o -o HelloSTLVector

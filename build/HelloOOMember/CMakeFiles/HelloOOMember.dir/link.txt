@@ -1,3 +1,1 @@
-D:\cpp\new_mingw32\bin\cmake.exe -E rm -f CMakeFiles\HelloOOMember.dir/objects.a
-D:\cpp\new_mingw32\bin\llvm-ar.exe qc CMakeFiles\HelloOOMember.dir/objects.a @CMakeFiles\HelloOOMember.dir\objects1.rsp
-D:\cpp\new_mingw32\bin\clang++.exe -g -Wl,--whole-archive CMakeFiles\HelloOOMember.dir/objects.a -Wl,--no-whole-archive -o HelloOOMember.exe -Wl,--out-implib,libHelloOOMember.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HelloOOMember.dir\linkLibs.rsp
+/usr/bin/clang++ -O2 -g -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/HelloOOMember.dir/main.cpp.o -o HelloOOMember

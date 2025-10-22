@@ -1,3 +1,1 @@
-D:\cpp\new_mingw32\bin\cmake.exe -E rm -f CMakeFiles\HelloOODerive.dir/objects.a
-D:\cpp\new_mingw32\bin\llvm-ar.exe qc CMakeFiles\HelloOODerive.dir/objects.a @CMakeFiles\HelloOODerive.dir\objects1.rsp
-D:\cpp\new_mingw32\bin\clang++.exe -g -Wl,--whole-archive CMakeFiles\HelloOODerive.dir/objects.a -Wl,--no-whole-archive -o HelloOODerive.exe -Wl,--out-implib,libHelloOODerive.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HelloOODerive.dir\linkLibs.rsp
+/usr/bin/clang++ -O2 -g -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/HelloOODerive.dir/main.cpp.o -o HelloOODerive

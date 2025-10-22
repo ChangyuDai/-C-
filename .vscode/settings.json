@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "D:/cpp/vscode",
+    "cmake.sourceDirectory": "/Users/mxm-Mac/Daichangyu/code/-C-",
     //改成你的clangd路径
     "clangd.path": "D:\\cpp\\new_mingw32\\bin\\clangd.exe",
     "clangd.arguments": [
@@ -32,4 +32,7 @@
     "clangd.onConfigChanged": "restart",
     "clangd.serverCompletionRanking": true,
     "clangd.detectExtensionConflicts": true,
+    "files.associations": {
+        "list": "cpp"
+    },
 }

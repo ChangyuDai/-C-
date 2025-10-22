@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HelloSTLList.dir/main.cpp.obj"
-  "CMakeFiles/HelloSTLList.dir/main.cpp.obj.d"
-  "HelloSTLList.exe"
-  "HelloSTLList.exe.manifest"
+  "CMakeFiles/HelloSTLList.dir/main.cpp.o"
+  "CMakeFiles/HelloSTLList.dir/main.cpp.o.d"
+  "HelloSTLList"
   "HelloSTLList.pdb"
-  "libHelloSTLList.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

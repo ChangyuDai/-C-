@@ -1,32 +1,32 @@
 [
 {
-  "directory": "D:/cpp/vscode/build/HelloOO",
-  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloOO.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloOO\\main.cpp",
-  "file": "D:/cpp/vscode/HelloOO/main.cpp",
-  "output": "HelloOO/CMakeFiles/HelloOO.dir/main.cpp.obj"
+  "directory": "/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloOO",
+  "command": "/usr/bin/clang++   -O2 -g -DNDEBUG -o CMakeFiles/HelloOO.dir/main.cpp.o -c /Users/mxm-Mac/Daichangyu/code/-C-/HelloOO/main.cpp",
+  "file": "/Users/mxm-Mac/Daichangyu/code/-C-/HelloOO/main.cpp",
+  "output": "HelloOO/CMakeFiles/HelloOO.dir/main.cpp.o"
 },
 {
-  "directory": "D:/cpp/vscode/build/HelloOOMember",
-  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloOOMember.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloOOMember\\main.cpp",
-  "file": "D:/cpp/vscode/HelloOOMember/main.cpp",
-  "output": "HelloOOMember/CMakeFiles/HelloOOMember.dir/main.cpp.obj"
+  "directory": "/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloOOMember",
+  "command": "/usr/bin/clang++   -O2 -g -DNDEBUG -o CMakeFiles/HelloOOMember.dir/main.cpp.o -c /Users/mxm-Mac/Daichangyu/code/-C-/HelloOOMember/main.cpp",
+  "file": "/Users/mxm-Mac/Daichangyu/code/-C-/HelloOOMember/main.cpp",
+  "output": "HelloOOMember/CMakeFiles/HelloOOMember.dir/main.cpp.o"
 },
 {
-  "directory": "D:/cpp/vscode/build/HelloOODerive",
-  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloOODerive.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloOODerive\\main.cpp",
-  "file": "D:/cpp/vscode/HelloOODerive/main.cpp",
-  "output": "HelloOODerive/CMakeFiles/HelloOODerive.dir/main.cpp.obj"
+  "directory": "/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloOODerive",
+  "command": "/usr/bin/clang++   -O2 -g -DNDEBUG -o CMakeFiles/HelloOODerive.dir/main.cpp.o -c /Users/mxm-Mac/Daichangyu/code/-C-/HelloOODerive/main.cpp",
+  "file": "/Users/mxm-Mac/Daichangyu/code/-C-/HelloOODerive/main.cpp",
+  "output": "HelloOODerive/CMakeFiles/HelloOODerive.dir/main.cpp.o"
 },
 {
-  "directory": "D:/cpp/vscode/build/HelloSTLVector",
-  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloSTLVector.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloSTLVector\\main.cpp",
-  "file": "D:/cpp/vscode/HelloSTLVector/main.cpp",
-  "output": "HelloSTLVector/CMakeFiles/HelloSTLVector.dir/main.cpp.obj"
+  "directory": "/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloSTLVector",
+  "command": "/usr/bin/clang++   -O2 -g -DNDEBUG -o CMakeFiles/HelloSTLVector.dir/main.cpp.o -c /Users/mxm-Mac/Daichangyu/code/-C-/HelloSTLVector/main.cpp",
+  "file": "/Users/mxm-Mac/Daichangyu/code/-C-/HelloSTLVector/main.cpp",
+  "output": "HelloSTLVector/CMakeFiles/HelloSTLVector.dir/main.cpp.o"
 },
 {
-  "directory": "D:/cpp/vscode/build/HelloSTLList",
-  "command": "D:\\cpp\\new_mingw32\\bin\\clang++.exe   -g -o CMakeFiles\\HelloSTLList.dir\\main.cpp.obj -c D:\\cpp\\vscode\\HelloSTLList\\main.cpp",
-  "file": "D:/cpp/vscode/HelloSTLList/main.cpp",
-  "output": "HelloSTLList/CMakeFiles/HelloSTLList.dir/main.cpp.obj"
+  "directory": "/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloSTLList",
+  "command": "/usr/bin/clang++   -O2 -g -DNDEBUG -o CMakeFiles/HelloSTLList.dir/main.cpp.o -c /Users/mxm-Mac/Daichangyu/code/-C-/HelloSTLList/main.cpp",
+  "file": "/Users/mxm-Mac/Daichangyu/code/-C-/HelloSTLList/main.cpp",
+  "output": "HelloSTLList/CMakeFiles/HelloSTLList.dir/main.cpp.o"
 }
 ]

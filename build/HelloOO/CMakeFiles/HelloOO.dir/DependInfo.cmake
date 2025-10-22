@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/cpp/vscode/HelloOO/main.cpp" "HelloOO/CMakeFiles/HelloOO.dir/main.cpp.obj" "gcc" "HelloOO/CMakeFiles/HelloOO.dir/main.cpp.obj.d"
+  "/Users/mxm-Mac/Daichangyu/code/-C-/HelloOO/main.cpp" "HelloOO/CMakeFiles/HelloOO.dir/main.cpp.o" "gcc" "HelloOO/CMakeFiles/HelloOO.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

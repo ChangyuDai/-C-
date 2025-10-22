@@ -1,0 +1,244 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "HelloOO",
+					"jsonFile" : "directory-HelloOO-RelWithDebInfo-d9e693d487e5d5b9de11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "HelloOO",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "HelloOOMember",
+					"jsonFile" : "directory-HelloOOMember-RelWithDebInfo-bfea2cfc362da083b3d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "HelloOOMember",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-RelWithDebInfo-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				},
+				{
+					"build" : "HelloOODerive",
+					"jsonFile" : "directory-HelloOODerive-RelWithDebInfo-b12d942c02e8fd8067a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "HelloOODerive",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "HelloSTLVector",
+					"jsonFile" : "directory-HelloSTLVector-RelWithDebInfo-d168f06e24e71aef25a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "HelloSTLVector",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "HelloSTLList",
+					"jsonFile" : "directory-HelloSTLList-RelWithDebInfo-d2e2b403be07c3f54663.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "HelloSTLList",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "VSCODE"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "HelloOO",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "HelloOOMember",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "HelloOODerive",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "HelloSTLVector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "HelloSTLList",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "HelloOO::@5fbef787e8b17466ade5",
+					"jsonFile" : "target-HelloOO-RelWithDebInfo-819648e42ece84410bda.json",
+					"name" : "HelloOO",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "HelloOODerive::@b0b4f57ae395e3e0c940",
+					"jsonFile" : "target-HelloOODerive-RelWithDebInfo-e34b33442a66b32988df.json",
+					"name" : "HelloOODerive",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "HelloOOMember::@33ce410c64bc4e1e1e38",
+					"jsonFile" : "target-HelloOOMember-RelWithDebInfo-b977f88cb6c01afe9569.json",
+					"name" : "HelloOOMember",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "HelloSTLList::@dcbbacdd796ec9d0f3fc",
+					"jsonFile" : "target-HelloSTLList-RelWithDebInfo-fbe754d49ac7f31644eb.json",
+					"name" : "HelloSTLList",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "HelloSTLVector::@2eec09e59ade53c83f8d",
+					"jsonFile" : "target-HelloSTLVector-RelWithDebInfo-6fd1a423aaa20c3b1df0.json",
+					"name" : "HelloSTLVector",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mxm-Mac/Daichangyu/code/-C-/build",
+		"source" : "/Users/mxm-Mac/Daichangyu/code/-C-"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

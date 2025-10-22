@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/mxm-Mac/Daichangyu/code/-C-/build/cmake_install.cmake",
+		"/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloOO/cmake_install.cmake",
+		"/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloOOMember/cmake_install.cmake",
+		"/Users/mxm-Mac/Daichangyu/code/-C-/build/test/cmake_install.cmake",
+		"/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloOODerive/cmake_install.cmake",
+		"/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloSTLVector/cmake_install.cmake",
+		"/Users/mxm-Mac/Daichangyu/code/-C-/build/HelloSTLList/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
